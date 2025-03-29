@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myvalue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Section3/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Section3/FundMe.sol": {
+			"keccak256": "0x61361c4bf5e53e17b83c9b71dbe9db5eaa71bf81370640851b1732e807bf3410",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7c11096d6c91f1018b78b145ec549bc0d6abdc3dbfc02a9a979bb5c65144c34",
+				"dweb:/ipfs/QmXht3mbTVtsdkCcKsyMSJvEF58zSEnhWD2w3eWSirqddw"
+			]
+		}
+	},
+	"version": 1
+}
