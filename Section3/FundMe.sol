@@ -10,6 +10,7 @@ contract FundMe{
     function fund() public payable {
   //Allow Users to Send Money
   //set minimum value to fund
+  //hi
     myvalue=myvalue+1;
      require(msg.value>1e18,"Too small");
 
