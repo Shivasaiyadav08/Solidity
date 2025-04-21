@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "r",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"recive.sol": "recive"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"recive.sol": {
+			"keccak256": "0xabc4ec78e49f1f14d27db94b6cc9b69c650e29bac6766d0cece64ec6228b00dc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51c5efa3617839fc6adf6d83684ae1d505c353ac773979118fb35ba1b95ee1e0",
+				"dweb:/ipfs/QmccLh7fyaBru2wxs1EnGp7TvC7jfqy6qdwGY4yexrejYE"
+			]
+		}
+	},
+	"version": 1
+}
